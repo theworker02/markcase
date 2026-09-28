@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/markcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mark structured JSON case payloads without a heavyweight toolkit.",
+  "bin": {
+    "markcase": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/markcase.git"
+  },
+  "homepage": "https://theworker02.github.io/markcase/",
+  "keywords": [
+    "mark",
+    "case",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
